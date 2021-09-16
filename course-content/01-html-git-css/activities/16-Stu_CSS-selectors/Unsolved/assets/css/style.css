@@ -1,13 +1,16 @@
 /* TODO: Label selector type */
+/*uses a universal selector to style the font of the entire thing to have this font family*/
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
 /* TODO: Label selector type */
+/*uses the element selector to styles the entire body to have a background-color of lemonchiffon*/
 body {
   background-color: lemonchiffon;
 }
 
+/*uses element selectors to style the header and the footer*/
 header,
 footer {
   width: 100%;
@@ -17,17 +20,20 @@ footer {
   background-color: #191970;
 }
 
+/*uses element selector to styles the figure element*/
 figure {
   width: 200px;
   background-color: #f0ead6;
 }
 
 /* TODO: Label selector type */
+/* uses class selector to over ride the universal selector font type of the unordered list and the paragraph*/
 .highlighted-text {
   font-weight: bolder;
 }
 
 /* TODO: Label selector type */
+/* uses ID selector to over ride the background color of the section */
 #contact-section {
   background-color: #f0ead6;
 }
